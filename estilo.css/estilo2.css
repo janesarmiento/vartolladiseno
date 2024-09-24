@@ -1,0 +1,150 @@
+.imgvartolla {
+  margin: 5px 20px 5px 0px;
+  width: 10%;
+  height: 8%;}
+
+
+/*----------------------------------------------------------------------------------------------------------
+PAGINA capsula*/
+.portada-capsula { margin: 10px;}
+.capsula-general{ margin: 100px 40px 80px 40px;
+    display: flex;
+  }
+.cada-capsula { width: 25%; margin: 10px;}
+.menucapsula1 { padding: 15px 0px 15px 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #adadad; }
+.menucapsula2 { display: flex;
+  justify-content: center;
+  font-size: 15px;
+  padding: 14px;
+  margin: 0px;background-color: #adadad;}
+
+main div img { 
+  border-radius: 10px;}
+  .textocapsula {    
+  margin: auto;
+  max-width: 550px;
+  text-align: center;}
+  .caja-capsula{     
+  margin: 60px 0px 130px 0px;
+  display: flex;}
+.varias-fotos {    
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;}
+.unica-foto { width: 40%;
+  margin: auto;}
+
+
+@keyframes show { 
+from { position: relative;
+scale: 100%;}
+to{ top: 160px;
+position: sticky;
+scale: 100%;}
+}
+
+.img {
+view-timeline-name: --image;
+view-timeline-axis: block;
+
+animation-timeline: --image;
+animation-name: show;
+
+animation-range: entry 0% cover 0%;
+ animation-fill-mode : both
+}
+/*---Pagina somos*/
+.img-somos{ margin: 70px;}
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------
+RESPONSIVE*/
+@media screen and (max-width: 1000px) {
+main {top: 170px;}
+p{ font-size: 10px;}
+h1{font-size: 16px;}
+h2 { font-size: 18px}
+h3{ font-size: 13px;}
+
+/*menu y footer*/
+header div li img {width: 100%;}
+.menu1 {justify-content: normal; padding: 20px}
+.imgvartolla {width: 30%;
+  margin: 10px 0px 0px 0px;}
+.categorias p {display: none;}
+.fotosmenu img {display: none;}
+.menu-content { top: 140px;}
+section div h1{ font-size: 10px;}
+.iconos{margin: 0px 0px 0px 130px;}
+.menu2 h1 {font-size: 11px;}
+.divbusqueda {display: none;}
+.footer {flex-wrap: wrap;}
+.footer2 h2 { font-size: 13px;}
+.datos {width: 100%;}
+
+
+/*index*/
+.div-index {padding: 5px;}
+.seccion-index{ margin: 0;}
+
+/*quienes somos*/
+.diseñadora { padding: 10px 0px 50px 0px;flex-direction: column}
+.foto-diseñadora { width: 80%;}
+.texto-diseñadora {
+  line-height: 15px;
+  margin: auto;
+  width: 100%;
+  letter-spacing: 0px;}
+.img-somos{ margin: 20px;}
+.texto-somos {line-height: 15px;}
+
+/*tabladetalles*/
+.logo-vartolla {padding: 50px 0px 20px 0px;}
+.parrafo-medidas {line-height: 15px;margin: 0px 50px 40px 50px;}
+.titulo-intermedio { margin: 40px 0px 0px 0px;
+ background-color: #adadad;padding: 10px;}
+.tabla-medidas { margin: 30px;}
+
+/*capsulas*/
+.capsula-general { margin: 50px 40px 20px 40px;flex-wrap: wrap;}
+.cada-capsula{ width: 43%;}
+.textocapsula { max-width: 300px;}
+
+/*cada prenda*/
+.image-texto {
+  display: flex;
+  margin: 0px;
+  flex-wrap: wrap;
+}
+
+div swiper-container {
+  margin: 60px 20px 20px 25px;
+  width: 335px;
+  height: 200px;
+}
+.boton-producto {
+  font-size: 12px;
+  margin: 10px 0px 0px 25px;
+  padding: 10px;}
+  .texto-producto {
+  width: 280px;
+  margin: 20px 0px 0px 25px;
+  line-height: 15px;
+}
+.texto-producto h2{ font-size: 18px;}
+.otras-propuestas{ margin: 50px 0px 50px 0px;}
+.cada-prenda {width: 42%;}
+.cada-prenda h2 { font-size: 13px;}
+.datos h2 { font-size: 12px;}
+
+}

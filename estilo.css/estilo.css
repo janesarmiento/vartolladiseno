@@ -1,0 +1,374 @@
+/* CSS Document */
+body {
+  margin: 0px;
+}
+
+h1 {
+  color: #fff;
+  font-family:sans-serif;
+  display: inline;
+  padding: 5px;}
+h2 { 
+  font-family: sans-serif;}
+h3{
+  font-family: sans-serif;}
+p{ font-size: 15px;
+  font-family: sans-serif;}
+
+
+/* Baner de cuotas*/
+.aviso {padding: 1px;
+  font-size: 14px;
+  text-align: center;
+  align-content: center;
+  background-color: rgb(213 210 207);
+}
+.aviso p {
+  font-size: 11px;
+  letter-spacing: 5px;
+  width: 3200px;
+  white-space: nowrap;
+  -webkit-text-stroke-width: 0.1px;
+  animation: move-rtl 30000ms linear infinite;
+}
+@keyframes move-rtl {
+  0% {
+    transform: translateX(0);
+  }
+  100% { 
+    transform: translateX(-100%);
+  }
+}
+
+
+/*ACA EMPIEZA MENU 1*/
+.menu1 {
+  padding: 15px 0px 15px 0px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+/*div de busqueda*/
+.divbusqueda {
+  margin: 0px 10px 0px 10px;
+  width: 60%;
+}
+/*baner de busqueda*/
+.busqueda {
+  min-width: 90%;
+  min-height: 85%;
+  background-color: #fff;
+  padding: 0 25px 0 45px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  font-size: 16px;
+}
+.iconos {
+  width: 11%;
+  display: flex;
+}
+.li-menu {
+  margin: 0px 20px 0px 20px;
+}
+/*ACA EMPIEZA MENU2*/
+.menu2 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  font-size: 15px;
+  padding: 14px;
+  margin: 0px;
+}
+.menu2>li>a> {
+  margin: 0px 20px 0px 20px;
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+.menu2>li:hover {
+  background-color: rgb(69, 69, 69);
+}
+.menu2>label> :hover { cursor: pointer; text-decoration: underline;
+  background-color: rgb(69, 69, 69);
+}
+
+/*MENU GENERAL*/
+.menu-general { top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+/*Menu vertical*/
+.menu-content { 
+  z-index: 2;
+  position: absolute;
+  top: 158px;
+  left: 0;
+  width: 100%;
+}
+
+.menuvertical {
+  display: flex;
+  transition: 0.5s;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*Para que no se vea el cuadrado del check "catalogo"*/
+#check-menu{
+  visibility: hidden;
+}
+
+.visible{
+  position: fixed;
+  opacity: 1;
+  height: unset;
+}
+
+section div h1 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 0px;
+  display: block;
+}
+
+section div p {
+  font-size: 16px;
+  margin: 5px;
+  color: #fff;
+}
+
+.categorias {
+  padding: 25px 75px 15px 35px;
+  border: solid 1px;
+  border-color: rgb(24, 24, 24);
+  line-height: 1.5
+}
+
+.categorias>h1>p {
+  color: #fff;
+}
+
+.fotosmenu {
+  display: flex;
+  background-color: black;
+}
+
+.fmenu1 {
+  width: 400px;
+  padding: 0px 5px 5px 5px;
+}
+
+.fmenu2 {
+  display: flex;
+  flex-direction: column;
+  width: 218px;
+  padding: 0px 5px 5px 5px;
+}
+
+.fmenu3 {
+  width: 200px;
+  padding: 0px 5px 5px 5px
+}
+
+/*----------------------------------------------------------------------------------------------------------
+OTROS*/
+main { 
+  position: relative;
+  top: 159px;
+  margin: 0px 0px 100px 0px;}
+
+footer {width: 100%;
+  position: absolute;
+  margin: 120px 0px 0px 0px;}
+/*----------------------------------------------------------------------------------------------------------
+FOOTER*/
+.footer{ 
+  border: 2px solid rgb(255 255 255);
+  font-size: 13px;
+  display: flex;
+  padding: 20px;
+  background-color: rgb(213 210 207);
+ }
+
+.footer2{ 
+  border: 2px solid rgb(255 255 255);
+   font-size: 13px;
+   display: flex;
+   padding: 20px;
+   background-color: rgb(0, 0, 0);
+   justify-content: center;
+  }
+.datos{ 
+  font-size: 12px;
+  padding: 0px 50px 0px 0px;}      
+/*----------------------------------------------------------------------------------------------------------
+PAGINA 1 DE INICIO*/
+.seccion-index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px;}
+.div-index {
+  width: 45%;
+  padding: 30px;
+}
+.texto-index {
+  margin: 36px;
+  text-align: center;
+  background-color: black;
+  padding: 30px;
+  height: 80px;
+}
+.foto-portada {
+  position: relative;
+  top: 159px;}
+/*----------------------------------------------------------------------------------------------------------
+PAGINA PRODUCTOS*/
+.cajas-prendas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cada-prenda {
+  width: 22%;
+  padding: 7px;
+}
+.li-fotos {
+  list-style: none;
+  margin: 0;
+}
+.precios{ font-weight: bold;
+font-size: 14px;}
+
+/*----------------------------------------------------------------------------------------------------------
+PAGINA CADA PRODUCTO*/
+.image-texto{display: flex;
+margin: 40px 0px 0px 50px;}
+
+
+div swiper-container {margin: 23px;
+  width: 500px;
+  height: 500px;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+
+.texto-producto{
+width: 400px;
+text-align: justify;
+margin: 0px 0px 0px 120px;
+line-height: 25px}
+
+.texto-producto h2 { font-size: 25px;}
+
+.caja-textoiconos { 
+  display: flex;
+  margin: 0 0 20px 0;
+}
+.texto-iconos { 
+  font-size: 13px;
+  margin: 0 0 0 10px;
+  font-weight: 550;
+}
+.carrusel-botones {
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+}
+.boton-producto{ cursor: pointer;
+  margin: 0px 0px 0px 50px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+.otras-propuestas {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin: 100px 0px 50px 0px;
+}
+/*----------------------------------------------------------------------------------------------------------
+PAGINA Tabla de talles*/
+.logo-vartolla { 
+  padding: 100px 0px 20px 0px;
+  width: 20%;
+  margin: auto;
+}
+.parrafo-medidas {
+  line-height: 5px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin: 50px 50px 70px 50px;
+}
+.videos-talles {display: flex;
+justify-content: center;
+}
+.video-talle{width: 40%;}
+.titulo-intermedio {
+  font-size: 30px;
+  margin: 80px 0px 0px 0px;
+  padding: 30px;
+  text-align: center;
+  background-color: black;
+}
+.tabla-medidas{margin: 70px;
+text-align: center;}
+
+/*----------------------------------------------------------------------------------------------------------
+PAGINA ¿Quienes somos?*/
+.diseñadora{  
+padding: 50px 0px 50px 0px; 
+width: 70%;
+display: flex;
+margin: auto
+}
+.foto-diseñadora {
+  width: 40%;
+  margin: 15px;
+}
+.texto-diseñadora{    
+  font-size: 15px;
+  line-height: 20px;
+  margin: auto;
+  width: 50%;
+  letter-spacing: 1px;}
+
+/*contamos info de la marca*/  
+.texto-somos { 
+  background-color: black; 
+  text-align: center ; padding: 40px;
+  letter-spacing: 1px;
+ 
+}
+.titulo-somos {
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0px 0px 40px 0px;"}
+
+
+
+
+
+  
