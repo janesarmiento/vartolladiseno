@@ -87,6 +87,7 @@ header div li img {width: 100%;}
 section div h1{ font-size: 10px;}
 .iconos{margin: 0px 0px 0px 130px;}
 .menu2 h1 {font-size: 11px;}
+.visible {position: relative;}
 .divbusqueda {display: none;}
 .footer {flex-wrap: wrap;}
 .footer2 h2 { font-size: 13px;}
